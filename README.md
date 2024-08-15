@@ -28,6 +28,10 @@ def simple_sort(arr):
         for j in range(0, n-i-1):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
+
+
+
+                
 This algorithm takes in an array, then iterates through that array at index of i. In a nested loop, every value (j) before i is compared to the value following j (j+1). If j is greater than j+1, the values are swapped. When the entire list has been iterated through, the array will be sorted, with the smallest value at index 0, and the greatest value at the end of the array. I believe this is an insertion sort.
 
 The double for loop creates a time complexity of O(n²). Each time the first loop runs, the second runs within it. The space complexity is constant, as it takes in only one array and the data does not change, but the quadratic time complexity is considered a horrible complexity, and this algorithm would run slowly with large datasets.
