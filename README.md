@@ -7,7 +7,7 @@ Backend Specialization / Module 12 Lesson 1 Assignment: Data Structures And Algo
 
 Author: Reggie Joseph
 
-Case Study: Optimizing Text Messaging App with Efficient Data Structures
+# Case Study: Optimizing Text Messaging App with Efficient Data Structures
 
 For an application that handles the storage and retrieval of messages, two big factors to consider is how new messages are inserted and how old messages are accessed.
 
