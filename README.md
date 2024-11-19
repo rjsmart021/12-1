@@ -29,8 +29,6 @@ def simple_sort(arr):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
 
-
-
                 
 This algorithm takes in an array, then iterates through that array at index of i. In a nested loop, every value (j) before i is compared to the value following j (j+1). If j is greater than j+1, the values are swapped. When the entire list has been iterated through, the array will be sorted, with the smallest value at index 0, and the greatest value at the end of the array. I believe this is an insertion sort.
 
